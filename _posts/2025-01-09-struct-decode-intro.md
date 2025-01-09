@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Structured Decoding in vLLM: a gentle introduction"
-author: "Guest Post by BentoML Team"
+author: "Guest Post by BentoML and Red Hat"
 ---
 
 **TL/DR**:
@@ -88,7 +88,7 @@ This advancement addresses **limitation (1)** by moving grammar compilation out 
   <img src="/assets/figures/struct-decode-intro/vllm-new-xgrammar.png" />
   <img src="/assets/figures/struct-decode-intro/vllm-xgrammar-decode-time-per-output-token.png" />
 <figcaption>
-courtesy of Michael Groin (Neural Magic).
+courtesy of Michael Groin (Red Hat).
 </figcaption>
 </figure>
 
@@ -123,7 +123,7 @@ _NOTE: if you have any more suggestions we are more than happy to take it into c
 
 ## Acknowledgements
 
-I want to thank the vLLM team, XGrammar team, Michael Groin (Neural Magic), Chendi Xue (Intel), and Russell Bryant (Red Hat) for their valuable feedback and collaboration on bringing XGrammar to vLLM and the continuous effort to improve structured decoding in vLLM.
+I want to thank the vLLM team, XGrammar team, Michael Groin (Red Hat), Chendi Xue (Intel), and Russell Bryant (Red Hat) for their valuable feedback and collaboration on bringing XGrammar to vLLM and the continuous effort to improve structured decoding in vLLM.
 
 ## References
 
