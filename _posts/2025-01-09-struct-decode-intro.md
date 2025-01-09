@@ -103,7 +103,7 @@ There are still a few usability concerns in XGrammar v0 integration to match fea
 
 > vLLM now has a basic support for XGrammar by default. In case where we know XGrammar is insufficient to serve the request, we fall back to Outlines.
 >
-> Note that vLLM also includes support for lm-format-enforcer. However, from our testing we found that in some long context test cases, lm-format-enforcer fails to enforce correct outputs, and not up to par with Outlines in terms of both performance and feature parity.
+> Note that vLLM also includes support for lm-format-enforcer. However, from our testing we found that in some long context test cases, lm-format-enforcer fails to enforce correct outputs, and not up to par with Outlines in terms of performance.
 
 ## Tentative plans for v1
 
