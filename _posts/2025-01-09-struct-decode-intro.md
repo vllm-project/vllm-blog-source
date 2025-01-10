@@ -7,8 +7,8 @@ author: "Guest Post by BentoML and Red Hat"
 **TL/DR**:
 
 - Structured decoding allows precise control over LLM output formats
-- vLLM now supports both outlines and XGrammar backends for structured decoding
-- Recent XGrammar integration brings up to 5x improvement in tokens generations
+- vLLM now supports both [outlines](https://github.com/dottxt-ai/outlines) and [XGrammar](https://github.com/mlc-ai/xgrammar) backends for structured decoding
+- Recent XGrammar integration brings up to 5x improvement in time per output token (TPOT) under load
 - Upcoming v1 release focuses on enhanced performance and better batch supports
 
 _[vLLM](https://blog.vllm.ai/2023/06/20/vllm.html) is the high-throughput and efficient inference engine for running **large-language models** (LLMs). In this post, we will explore the annotated history of language models, describe the current state of structured decoding in vLLM, as well as the recent integration with [XGrammar](https://github.com/vllm-project/vllm/pull/10785), and [share our tentative roadmap for future improvements](https://github.com/vllm-project/vllm/issues/8779)._
@@ -88,7 +88,7 @@ This advancement addresses **limitation (1)** by moving grammar compilation out 
   <img src="/assets/figures/struct-decode-intro/vllm-new-xgrammar.png" />
   <img src="/assets/figures/struct-decode-intro/vllm-xgrammar-decode-time-per-output-token.png" />
 <figcaption>
-courtesy of Michael Groin (Red Hat).
+courtesy of Michael Goin (Red Hat).
 </figcaption>
 </figure>
 
@@ -123,7 +123,7 @@ _NOTE: if you have any more suggestions we are more than happy to take it into c
 
 ## Acknowledgements
 
-I want to thank the vLLM team, XGrammar team, Michael Groin (Red Hat), Chendi Xue (Intel), and Russell Bryant (Red Hat) for their valuable feedback and collaboration on bringing XGrammar to vLLM and the continuous effort to improve structured decoding in vLLM.
+I want to thank the vLLM team, XGrammar team, Michael Goin (Red Hat), Chendi Xue (Intel), and Russell Bryant (Red Hat) for their valuable feedback and collaboration on bringing XGrammar to vLLM and the continuous effort to improve structured decoding in vLLM.
 
 ## References
 
