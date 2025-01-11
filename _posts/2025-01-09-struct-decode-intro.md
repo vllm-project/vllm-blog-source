@@ -64,7 +64,7 @@ courtesy of <a href="https://lmsys.org/blog/2024-02-05-compressed-fsm/" target="
 </figcaption>
 </figure>
 
-_in vLLM, you can use this by passing a JSON schema to the sampling params (either through Python SDK or HTTP requests)._
+_In vLLM, you can use this by passing a JSON schema to the sampling params (either through Python SDK or HTTP requests)._
 
 > Note: in some cases, it can even [improve](https://blog.dottxt.co/coalescence.html) the native decoding performance for LLM!
 
@@ -119,7 +119,7 @@ With the release of [v1](https://github.com/vllm-project/vllm/issues/8779) on th
    - Reason: XGrammar includes plans to support tool-use, such that we can move away from Python's [tool parser](https://github.com/vllm-project/vllm/tree/main/vllm/entrypoints/openai/tool_parsers).
    - Tree scoring in speculative decoding can then use the same API as jump-forward decoding (which depends on the integration of guided decoding at the scheduler level).
 
-_NOTE: if you have any more suggestions we are more than happy to take it into consideration. Consider joining [vLLM slack](https://www.notion.so/bentoml/slack.vllm.ai) via `#feat-structured-output`._
+_NOTE: if you have any more suggestions we are more than happy to take it into consideration. Consider joining [vLLM slack](https://slack.vllm.ai) via `#feat-structured-output`._
 
 ## Acknowledgements
 
